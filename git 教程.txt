@@ -1,30 +1,40 @@
 ************************************************************************************************************************
-*                                                     Git Ê¹ÓÃĞÄµÃ                                                     *
+*                                                     Git ä½¿ç”¨å¿ƒå¾—                                                     *
 *                                                                                                                      *
 *                                                      Author:Bean                                                     *
 *                                                                                                                      *
 ************************************************************************************************************************
 
-ÈçºÎÌá½»ÎÄ¼şµ½Ä¿Â¼repository£º
+å¦‚ä½•æäº¤æ–‡ä»¶åˆ°ç›®å½•repositoryï¼š
 $ git clone https://github.com/yangbinbin123/Assembly-Language.git
 $ cd Assembly-Language
 $ git commit -m "Assembly-Laguage"
-$ git push origin master (masterÊÇÄ¬ÈÏµÄ·ÖÖ§)
-»òÕß¿ÉÒÔÓÃÕâ¸öÃüÁîÀ´Ìá½»µ½·ÖÖ§ÉÏ
+$ git push origin master (masteræ˜¯é»˜è®¤çš„åˆ†æ”¯)
+æˆ–è€…å¯ä»¥ç”¨è¿™ä¸ªå‘½ä»¤æ¥æäº¤åˆ°åˆ†æ”¯ä¸Š
 $ git push -u origin master:master
 
-´´½¨ĞÂµÄ·ÖÖ§£¬¸üĞÂÄ¿Â¼repository
+åˆ›å»ºæ–°çš„åˆ†æ”¯ï¼Œæ›´æ–°ç›®å½•repository
 
-$ git checkout master ÇĞ»»·ÖÖ§
-$ git branch update ´´½¨update·ÖÖ§
-$ git checkout -b update ÇĞ»»²¢´´½¨ĞÂµÄ·ÖÖ§update
-$ git branch ²é¿´µ±Ç°·ÖÖ§
-$ git branch -d update É¾³ıupdate·ÖÖ§
-$ git status ²é¿´¸üĞÂµÄÇé¿ö
-$ git add -A °ÑĞÂÔöĞŞ¸ÄµÄÎÄ¼şµ½»º´æÁĞ±í
-°Ñ·ÖÖ§ºÏ²¢µ½master·ÖÖ§ÉÏ
+$ git checkout master åˆ‡æ¢åˆ†æ”¯
+$ git branch update åˆ›å»ºupdateåˆ†æ”¯
+$ git checkout -b update åˆ‡æ¢å¹¶åˆ›å»ºæ–°çš„åˆ†æ”¯update
+$ git branch æŸ¥çœ‹å½“å‰åˆ†æ”¯
+$ git branch -d update åˆ é™¤updateåˆ†æ”¯
+$ git status æŸ¥çœ‹æ›´æ–°çš„æƒ…å†µ
+$ git add -A æŠŠæ–°å¢ä¿®æ”¹çš„æ–‡ä»¶åˆ°ç¼“å­˜åˆ—è¡¨
+æŠŠåˆ†æ”¯åˆå¹¶åˆ°masteråˆ†æ”¯ä¸Š
 
 $ git checkout master
 $ git merge update
 
 
+å¦‚ä½•åˆ é™¤è¿œç¨‹ä»“åº“ä¸Šçš„æ–‡ä»¶å¤¹
+é¦–å…ˆè¿›è¡Œæœ¬åœ°ä»“åº“ä¸è¿œç¨‹ä»“åº“çš„åŒæ­¥æ“ä½œ
+$ git push origin master
+æŸ¥çœ‹æœ‰å“ªäº›æ–‡ä»¶å¤¹
+$ dir 
+åˆ é™¤targetæ–‡ä»¶å¤¹
+$ git rm -r --cached target
+$ git commit -m "20181013"
+$ git push -u origin master
+æ“ä½œå®Œæˆ
