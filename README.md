@@ -1,2 +1,2 @@
 # Photo-Barn
-存储截图之用
+git教程
