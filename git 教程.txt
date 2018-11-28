@@ -27,6 +27,9 @@ $ git add -A 把新增修改的文件到缓存列表
 $ git checkout master
 $ git merge update
 
+现在可以放心地删除update分支了
+$ git branch -d update
+$ git push origin master
 
 如何删除远程仓库上的文件夹
 首先进行本地仓库与远程仓库的同步操作
