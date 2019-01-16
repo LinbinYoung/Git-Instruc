@@ -7,16 +7,11 @@
 
 * 如果是第一次上传文件到GitHub上，
 首先在网站上创建你的目录repository，这里以Assembly-Language为例：
-把repository克隆到本地：
-$ git clone https://github.com/yangbinbin123/Assembly-Language.git
-在本地进入你克隆下的文件夹
-$ cd Assembly-Language
-Commit东西到主分支
-$ git commit -m "Assembly-Laguage"
-提交任务
-$ git push origin master (master是默认的分支)
-或者可以用这个命令来提交到分支上
-$ git push -u origin master:master
+$ git clone https://github.com/yangbinbin123/Assembly-Language.git 把repository克隆到本地
+$ cd Assembly-Language 在本地进入你克隆下的文件夹
+$ git commit -m "Assembly-Laguage" Commit东西到主分支
+$ git push origin master (master是默认的分支) 提交任务
+$ git push -u origin master:master 或者可以用这个命令来提交到分支上
 
 * 创建新的分支，更新目录repository
 $ git checkout master 切换分支命令
