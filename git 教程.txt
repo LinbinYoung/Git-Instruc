@@ -40,3 +40,6 @@ $ git rm -r --cached target
 $ git commit -m "20181013"
 $ git push -u origin master
 操作完成
+
+如何删除远程分支
+git push origin --delete <branch name>
