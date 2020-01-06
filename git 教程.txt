@@ -5,7 +5,7 @@
 *                                                                                                                      *
 ************************************************************************************************************************
 
-* 如果是第一次上传文件到GitHub上，
+如果是第一次上传文件到GitHub上，
 首先在网站上创建你的目录repository，这里以Assembly-Language为例：
 $ git clone https://github.com/LinbinYoung/Inference-System-without-TensorFlow-api.git 把repository克隆到本地
 $ cd Inference-System-without-TensorFlow-api 在本地进入你克隆下的文件夹
